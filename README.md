@@ -53,3 +53,21 @@ npm install
 ```
 npm start
 ```
+
+## DOCKER
+- **A**
+```
+a
+```
+
+## DOCKER COMPOSE
+- **A**
+```
+a
+```
+
+## KUBERNETES
+- **A**
+```
+a
+```
