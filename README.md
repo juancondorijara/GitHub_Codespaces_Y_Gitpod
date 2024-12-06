@@ -13,13 +13,13 @@
 </div>
 
 ## BACK END | Java Development Kit (JDK)
-- **Listar versiones de `JDK` (LTS)**
+- **Listar versiones de `JDK` (LTS), tecla "Q" para salir de la lista**
 ```
 sdk list java
 ```
 - **Instalar una versión de `JDK` según la lista anterior, por ejemplo:**
 ```
-sdk install java 17.0.11-jbr
+sdk install java 17.0.12-jbr
 ```
 - **Instalar la extensión de: `Extension Pack for Java` en Codespaces**
 - **Finalmente puedes ejecutar tu proyecto Spring Boot con el arcivo principal "Application.java"**
@@ -35,11 +35,11 @@ npm show @angular/cli dist-tags
 ```
 - **Instalar una versión de `Node.js` según la lista anterior, por ejemplo:**
 ```
-nvm install 17
+nvm install 20.9.0
 ```
 - **Instalar una versión de `Angular` compatible con `Node.js` según la lista anterior, por ejemplo:**
 ```
-npm install -g @angular/cli@17.3.8
+npm install -g @angular/cli@17.3.0
 ```
 - **Verificar las versiones instaladas de `Node.js` y `Angular`**
 ```
