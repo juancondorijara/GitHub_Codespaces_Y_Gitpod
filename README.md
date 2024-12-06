@@ -67,23 +67,28 @@ a
 ```
 
 ## KUBERNETES
-- **Crear | actualizar un namespace mediante un archivo `.yml` **
+- **Crear | actualizar un namespace mediante un archivo `.yml`**
 ```
 kubectl apply -f namespace.yml
 ```
-- **Crear | actualizar un configmap mediante un archivo `.yml` **
+
+- **Crear | actualizar un configmap mediante un archivo `.yml`**
 ```
 kubectl apply -f configmap.yml
 ```
-- **Crear | actualizar un secret mediante un archivo `.yml` **
+- **Crear | actualizar un secret mediante un archivo `.yml`**
 ```
 kubectl apply -f secret.yml
 ```
-- **Crear | actualizar un deployment mediante un archivo `.yml` **
+- **Crear | actualizar un deployment mediante un archivo `.yml`**
 ```
 kubectl apply -f deployment.yml
 ```
-- **Crear | actualizar un service mediante un archivo `.yml` **
+- **Crear | actualizar un service mediante un archivo `.yml`**
 ```
 kubectl apply -f service.yml
+```
+- **Crear | actualizar un horizontalpodautoscaler mediante un archivo `.yml`**
+```
+kubectl apply -f horizontalpodautoscaler.yml
 ```
