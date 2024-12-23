@@ -12,7 +12,7 @@
 ```
 </div>
 
-## BACK END | Java Development Kit (JDK)
+## BACK END | Java Development Kit (JDK) 👨‍💻🔵👩‍💻
 - **Listar versiones de `JDK` (LTS), tecla "Q" para salir de la lista**
 ```
 sdk list java
@@ -28,7 +28,7 @@ sdk install java 17.0.12-jbr
 mvn spring-boot:run
 ```
 
-## FRONT END | Node.js
+## FRONT END | Node.js 👨‍💻🔵👩‍💻
 - **Listar versiones de `Node.js` con la versión `Angular` (LTS)**
 ```
 npm show @angular/cli dist-tags
@@ -54,19 +54,19 @@ npm install
 npm start
 ```
 
-## DOCKER
+## DOCKER 👨‍💻🔵👩‍💻
 - **A**
 ```
 a
 ```
 
-## DOCKER COMPOSE
+## DOCKER COMPOSE 👨‍💻🔵👩‍💻
 - **A**
 ```
 a
 ```
 
-## KUBERNETES
+## KUBERNETES 👨‍💻🔵👩‍💻
 - **Crear | actualizar un namespace mediante un archivo `.yml`**
 ```
 kubectl apply -f namespace.yml
