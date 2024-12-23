@@ -55,15 +55,27 @@ npm start
 ```
 
 ## DOCKER 👨‍💻🔵👩‍💻
-- **A**
+- **Loguearse con las credenciales de Docker Hub**
 ```
-a
+docker login -u tu-usuario (enter y luego escribir tu contraseña o token)
+```
+- **Ejecutar una imagen Docker en un contenedor Docker**
+```
+docker run --name nombre-contenedor -p 8085:8085 tu-usuario/tu-imagen:version
+```
+- **Dockerizar un proyecto utilizando un archivo `Dockerfile`**
+```
+docker build -t tu-usuario/tu-imagen:version .
+```
+- **Subir una imagen a Docker Hub**
+```
+docker push tu-usuario/tu-imagen:version
 ```
 
 ## DOCKER COMPOSE 👨‍💻🔵👩‍💻
-- **A**
+- **Ejecutar tu archivo `docker-compose.yml`**
 ```
-a
+docker-compose up
 ```
 
 ## KUBERNETES 👨‍💻🔵👩‍💻
