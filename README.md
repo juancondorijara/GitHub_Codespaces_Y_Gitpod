@@ -19,7 +19,7 @@ sdk list java
 ```
 - **Instalar una versión de `JDK` según la lista anterior, por ejemplo:**
 ```
-sdk install java 17.0.12-jbr
+sdk install java 17.0.14-jbr
 ```
 - **Instalar la extensión de: `Extension Pack for Java` en Codespaces**
 - **Finalmente puedes ejecutar tu proyecto Spring Boot con el arcivo principal "Application.java"**
